@@ -1,0 +1,45 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore SQLite database files
+*.db
+*.sqlite
+
+# Ignore parquet files
+*.parquet
+
+# Ignore CSV files for weather data
+weather_data/*.csv
+
+# Ignore compiled Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore folders for processed data
+processed_uber/
+processed_yellow_taxi/
+
+# Ignore shapefiles and related outputs (from taxi zones)
+taxi_zones/*.dbf
+taxi_zones/*.prj
+taxi_zones/*.sbn
+taxi_zones/*.sbx
+taxi_zones/*.shp
+taxi_zones/*.xml
+taxi_zones/*.shx
+
+# Ignore output SQL query files
+*.sql
+
+# Ignore large data directories
+data_parquet/
+sampled_data/
+
+# Ignore extracted data or temp files
+*.csv
+extracted_snow_data.csv
